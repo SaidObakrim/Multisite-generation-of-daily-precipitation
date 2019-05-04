@@ -1,4 +1,4 @@
-#Multisite generation of daily precipitation 
+## Multisite generation of daily precipitation
 
 In this project I presente an implementation of the familiar two-part model (Wilks 1998) for dialy simulation of precipitation
 at multiple locations.
