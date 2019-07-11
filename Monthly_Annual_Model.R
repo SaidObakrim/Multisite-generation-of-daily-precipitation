@@ -9,7 +9,7 @@ mn = function(x,sm,m1){
   mt[1,]= sm[1,]
   m0 = cor(x)
   vc = c()
-  for(i in 1:6){
+  for(i in 1:dim(sm)[2]){
     vc = c(vc, acf(x[,i],lag=1,plot=FALSE)$acf[2])
   }
   a = m1%*%solve(m0)
